@@ -3,28 +3,23 @@ import { Routes, Route } from "react-router-dom";
 import "./App.css";
 
 // Pages Imports
-import HomePage from "./pages/HomePage/HomePage";
-import LoginPage from "./pages/LoginPage/LoginPage";
-import RegisterPage from "./pages/RegisterPage/RegisterPage";
+import LandingPage from "./pages/LandingPage/LandingPage";
+import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
 
 // Component Imports
-import Navbar from "./components/NavBar/NavBar";
-import Footer from "./components/Footer/Footer";
+import NavBar from "./components/NavBar/NavBar";
 
 // Util Imports
 import PrivateRoute from "./utils/PrivateRoute";
-import LandingPage from "./pages/LandingPage/LandingPage";
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <NavBar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/register" element={<RegisterPage />} />
-        <Route path="/login" element={<LoginPage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
       </Routes>
-      <Footer />
     </div>
   );
 }

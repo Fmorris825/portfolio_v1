@@ -1,30 +1,23 @@
 import React from "react";
-import { useContext } from "react";
-import { useNavigate, Link } from "react-router-dom";
-import AuthContext from "../../context/AuthContext";
 import "./NavBar.css";
 
-const Navbar = () => {
-  const { logoutUser, user } = useContext(AuthContext);
-  const navigate = useNavigate();
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+
+const NavBar = () => {
   return (
-    <div className="navBar">
-      <ul>
-        <li className="brand">
-          <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-            <b>React/Django JWT</b>
-          </Link>
-        </li>
-        <li>
-          {user ? (
-            <button onClick={logoutUser}>Logout</button>
-          ) : (
-            <button onClick={() => navigate("/login")}>Login</button>
-          )}
-        </li>
-      </ul>
-    </div>
+    <Navbar bg="light" variant="light">
+      <Container>
+        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Nav className="me-auto">
+          <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#features">Features</Nav.Link>
+          <Nav.Link href="#pricing">Pricing</Nav.Link>
+        </Nav>
+      </Container>
+    </Navbar>
   );
 };
 
-export default Navbar;
+export default NavBar;
