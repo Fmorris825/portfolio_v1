@@ -14,7 +14,7 @@ import PrivateRoute from "./utils/PrivateRoute";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <NavBar />
       <Routes>
         <Route path="/" element={<LandingPage />} />

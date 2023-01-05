@@ -7,13 +7,18 @@ import Navbar from "react-bootstrap/Navbar";
 
 const NavBar = () => {
   return (
-    <Navbar bg="light" variant="light">
-      <Container>
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+    <Navbar>
+      <Container className="navbar">
+        <Navbar.Brand className="navText" href="#home">
+          Fredrick Morris
+        </Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <Nav.Link className="navText" href="#features">
+            Projects
+          </Nav.Link>
+          <Nav.Link className="navText" href="#pricing">
+            Contact Me
+          </Nav.Link>
         </Nav>
       </Container>
     </Navbar>
