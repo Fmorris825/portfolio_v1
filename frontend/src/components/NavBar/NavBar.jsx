@@ -1,26 +1,26 @@
 import React from "react";
-import "./NavBar.css";
+import { Link } from "react-router-dom";
 
-import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { NavbarBrand, NavLink } from "react-bootstrap";
+
+import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    <Navbar>
-      <Container className="navbar">
-        <Navbar.Brand className="navText" href="#home">
-          Fredrick Morris
-        </Navbar.Brand>
-        <Nav className="me-auto">
-          <Nav.Link className="navText" href="#features">
-            Projects
-          </Nav.Link>
-          <Nav.Link className="navText" href="#pricing">
-            Contact Me
-          </Nav.Link>
-        </Nav>
-      </Container>
+    <Navbar className="navbar">
+      <NavbarBrand className="brand" href="/">
+        <div className="navTextBrand">Fredrick Morris</div>
+      </NavbarBrand>
+      <Nav className="links">
+        <NavLink href="/projects">
+          <div className="navText">Projects</div>
+        </NavLink>
+        <NavLink href="/contactme">
+          <div className="navText">Contact Me</div>
+        </NavLink>
+      </Nav>
     </Navbar>
   );
 };
