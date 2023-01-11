@@ -1,0 +1,9 @@
+.skillsCard {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.skillsCard:hover {
+  filter: drop-shadow(3px 3px 2px whitesmoke);
+}
