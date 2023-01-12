@@ -11,17 +11,19 @@ import NavBar from "./components/NavBar/NavBar";
 
 // Util Imports
 import PrivateRoute from "./utils/PrivateRoute";
-import { Container } from "react-bootstrap";
+import { Container, Col } from "react-bootstrap";
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/projects" element={<ProjectsPage />} />
-      </Routes>
-    </div>
+    <Container className="App">
+      <Col sm="auto">
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+        </Routes>
+      </Col>
+    </Container>
   );
 }
 
