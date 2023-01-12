@@ -1,5 +1,6 @@
 // General Imports
 import { Routes, Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 // Pages Imports
@@ -15,15 +16,13 @@ import { Container, Col } from "react-bootstrap";
 
 function App() {
   return (
-    <Container className="App">
-      <Col sm="auto">
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/projects" element={<ProjectsPage />} />
-        </Routes>
-      </Col>
-    </Container>
+    <div className="App">
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+      </Routes>
+    </div>
   );
 }
 
