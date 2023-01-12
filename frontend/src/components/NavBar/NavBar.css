@@ -15,7 +15,7 @@
 
 .links {
   display: flex;
-  gap: 100px;
+  justify-content: space-between;
 }
 
 .navText {
@@ -26,4 +26,5 @@
   display: flex;
   justify-content: space-around;
   gap: 30px;
+  padding: 20px;
 }
