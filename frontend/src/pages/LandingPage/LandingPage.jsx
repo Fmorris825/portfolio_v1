@@ -3,6 +3,7 @@ import "./LandingPage.css";
 import Skill from "../../components/Skill/Skill";
 
 import data from "../../data";
+import { Container, Row, Col } from "react-bootstrap";
 
 const LandingPage = () => {
   // const [skills, setSkills] = useState([]);
@@ -18,18 +19,30 @@ const LandingPage = () => {
 
   return (
     <div className="d-flex flex-column javascriptText">
-      <p className="JavascriptText1">
-        <a href="https://codepen.io/grohit/">Hello, I'm Fredrick Morris</a>
-      </p>
-      <p className="JavascriptText2">
-        <a href="https://codepen.io/grohit/">Fullstack Devloper</a>
-      </p>
-      {/* Map over Backend Skills */}
-      <div className="skillsContainer">
-        {data.skills.map((skill, index) => {
-          return <Skill skill={skill} />;
-        })}
-      </div>
+      <Container>
+        <Col xs="auto">
+          <Row>
+            <p className="JavascriptText1">
+              <a href="https://codepen.io/grohit/">
+                Hello, I'm Fredrick Morris
+              </a>
+            </p>
+          </Row>
+          <Row>
+            <p className="JavascriptText2">
+              <a href="https://codepen.io/grohit/">Fullstack Devloper</a>
+            </p>
+          </Row>
+          <Row>
+            {/* Map over Backend Skills */}
+            <div className="skillsContainer">
+              {data.skills.map((skill, index) => {
+                return <Skill skill={skill} />;
+              })}
+            </div>
+          </Row>
+        </Col>
+      </Container>
       {/* Linked in Badge
         <div
             class="badge-base LI-profile-badge"

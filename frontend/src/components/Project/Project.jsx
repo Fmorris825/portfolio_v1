@@ -7,7 +7,7 @@ const Project = ({ project }) => {
   return (
     <Container>
       <Row>
-        <Col sm="auto">
+        <Col xs="auto">
           <Row>
             <Image src={project.project_thumbnail} />
           </Row>

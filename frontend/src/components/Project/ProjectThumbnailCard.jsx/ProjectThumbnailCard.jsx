@@ -1,12 +1,14 @@
-import { Container, Image } from "react-bootstrap";
+import { Container, Image, Col, Row } from "react-bootstrap";
 
 const ProjectThumbnailCard = ({ thumbnailCard }) => {
   return (
     <Container>
-      <div>
-        <Image className="thumbnails" src={thumbnailCard.thumbnail} />
-      </div>
-      <div>{thumbnailCard.thumbnail_description}</div>
+      <Col xs="auto">
+        <Row>
+          <Image className="thumbnails" src={thumbnailCard.thumbnail} />
+        </Row>
+        <Row>{thumbnailCard.thumbnail_description}</Row>
+      </Col>
     </Container>
   );
 };

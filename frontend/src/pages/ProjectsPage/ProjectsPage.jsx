@@ -8,7 +8,7 @@ const ProjectsPage = () => {
   return (
     <Container className="ProjectsPageBody">
       <Row>
-        <Col>
+        <Col xs="auto">
           {data.projects.map((project, index) => {
             return <Project project={project} />;
           })}
