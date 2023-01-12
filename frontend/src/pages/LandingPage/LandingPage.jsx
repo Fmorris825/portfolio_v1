@@ -20,7 +20,7 @@ const LandingPage = () => {
   return (
     <div className="d-flex flex-column javascriptText">
       <Container>
-        <Col xs="auto">
+        <Col sm="auto">
           <Row>
             <p className="JavascriptText1">
               <a href="https://codepen.io/grohit/">
