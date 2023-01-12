@@ -7,14 +7,17 @@ const Project = ({ project }) => {
   return (
     <Container>
       <Row>
-        <Container>
-          <Image className="thumbnails" src={project.project_thumbnail} />
-        </Container>
-        <Container>
-          {project.project_thumbnail_cards.map((thumbnailCard, index) => {
-            return <ProjectThumbnailCard thumbnailCard={thumbnailCard} />;
-          })}
-        </Container>
+        <Col sm="auto">
+          <Row>
+            <Image src={project.project_thumbnail} />
+          </Row>
+
+          <Row>
+            {project.project_thumbnail_cards.map((thumbnailCard, index) => {
+              return <ProjectThumbnailCard thumbnailCard={thumbnailCard} />;
+            })}
+          </Row>
+        </Col>
       </Row>
     </Container>
   );
