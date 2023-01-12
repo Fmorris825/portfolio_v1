@@ -14,11 +14,16 @@
 }
 
 .links {
-  margin: 0px 0px 0px 250px;
   display: flex;
   gap: 100px;
 }
 
 .navText {
   text-decoration: underline;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
 }
