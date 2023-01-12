@@ -1,4 +1,9 @@
 import CapstoneLandingPage from "../src/Images/Projects/MorrisDeltaRealty/LandingPage.png";
+import CapstonePropertiesPageCarousel from "../src/Images/Projects/MorrisDeltaRealty/PropertiesPageCarousel.png";
+import CapstonePropertiesPageCard from "../src/Images/Projects/MorrisDeltaRealty/PropertiesPageCard.png";
+import CapstoneMapsAndNeighorsPage from "../src/Images/Projects/MorrisDeltaRealty/MapsAndNeighborsPage.png";
+import CapstoneContactUsModal from "../src/Images/Projects/MorrisDeltaRealty/ContactUSModal.png";
+import CapstoneContactUsValidation from "../src/Images/Projects/MorrisDeltaRealty/ContactUSValidation.png";
 
 const skills = [
   {
@@ -42,23 +47,23 @@ const projects = [
     project_description: "Real Estate Application",
     project_thumbnail_cards: [
       {
-        thumbnail: "",
+        thumbnail: CapstonePropertiesPageCarousel,
         thumbnail_description: "thumnail 1",
       },
       {
-        thumbnail: "",
+        thumbnail: CapstonePropertiesPageCard,
         thumbnail_description: "thumnail 2",
       },
       {
-        thumbnail: "",
+        thumbnail: CapstoneMapsAndNeighorsPage,
         thumbnail_description: "thumnail 3",
       },
       {
-        thumbnail: "",
+        thumbnail: CapstoneContactUsModal,
         thumbnail_description: "thumnail 4",
       },
       {
-        thumbnail: "",
+        thumbnail: CapstoneContactUsValidation,
         thumbnail_description: "thumnail 5",
       },
     ],

@@ -11,6 +11,7 @@ import NavBar from "./components/NavBar/NavBar";
 
 // Util Imports
 import PrivateRoute from "./utils/PrivateRoute";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (

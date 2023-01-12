@@ -1,7 +1,7 @@
 .App {
   background-image: url("background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: repeat;
   width: 100vw;
   height: 100vh;
   color: aliceblue;
