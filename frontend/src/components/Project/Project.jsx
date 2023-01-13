@@ -9,7 +9,7 @@ const Project = ({ project }) => {
       <Row>
         <Col xs="auto">
           <Row>
-            <Image src={project.project_thumbnail} />
+            <Image className="thumbnails" src={project.project_thumbnail} />
           </Row>
 
           <Row>

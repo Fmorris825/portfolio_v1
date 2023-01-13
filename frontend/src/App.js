@@ -13,6 +13,7 @@ import NavBar from "./components/NavBar/NavBar";
 // Util Imports
 import PrivateRoute from "./utils/PrivateRoute";
 import { Container, Col } from "react-bootstrap";
+import MorrisDeltaRealty from "./pages/MorrisDeltaRealty/MorrisDeltaRealty";
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
+        <Route
+          path="/Morris%20Delta%20Realty"
+          element={<MorrisDeltaRealty />}
+        />
       </Routes>
     </div>
   );
