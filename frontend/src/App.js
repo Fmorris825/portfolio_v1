@@ -14,6 +14,7 @@ import NavBar from "./components/NavBar/NavBar";
 import PrivateRoute from "./utils/PrivateRoute";
 import { Container, Col } from "react-bootstrap";
 import MorrisDeltaRealty from "./pages/MorrisDeltaRealty/MorrisDeltaRealty";
+import YoutubeClone from "./pages/YoutubeClone/YoutubeClone";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           path="/Morris%20Delta%20Realty"
           element={<MorrisDeltaRealty />}
         />
+        <Route path="/Youtube%20Clone" element={<YoutubeClone />} />
       </Routes>
     </div>
   );

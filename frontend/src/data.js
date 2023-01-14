@@ -1,9 +1,18 @@
+/*Morris Delta Realty Images*/
 import CapstoneLandingPage from "../src/Images/Projects/MorrisDeltaRealty/LandingPage.png";
 import CapstonePropertiesPageCarousel from "../src/Images/Projects/MorrisDeltaRealty/PropertiesPageCarousel.png";
 import CapstonePropertiesPageCard from "../src/Images/Projects/MorrisDeltaRealty/PropertiesPageCard.png";
 import CapstoneMapsAndNeighorsPage from "../src/Images/Projects/MorrisDeltaRealty/MapsAndNeighborsPage.png";
 import CapstoneContactUsModal from "../src/Images/Projects/MorrisDeltaRealty/ContactUSModal.png";
 import CapstoneContactUsValidation from "../src/Images/Projects/MorrisDeltaRealty/ContactUSValidation.png";
+
+/*Youtube Clone Images*/
+import ytcLandingPage from "../src/Images/Projects/YoutubeClone/LandingPage.png";
+import ytcLandingPageSearch from "../src/Images/Projects/YoutubeClone/LandingPageSearch.png";
+import ytcSearchResults from "../src/Images/Projects/YoutubeClone/SearchResults.png";
+import ytcVideoPageNoLogin from "../src/Images/Projects/YoutubeClone/VideoPageNoLogin.png";
+import ytcVideoPageComment from "../src/Images/Projects/YoutubeClone/VideoPageComment2.png";
+import ytcVideoPageCommentAndReply from "../src/Images/Projects/YoutubeClone/VideoPageCommentAndReply.png";
 
 const skills = [
   {
@@ -69,29 +78,29 @@ const projects = [
     ],
   },
   {
-    project_name: "",
-    project_thumbnail: "",
-    project_description: "",
+    project_name: "Youtube Clone",
+    project_thumbnail: ytcLandingPage,
+    project_description: "Youtube CLone Desc",
     project_thumbnail_cards: [
       {
-        thumbnail: "",
-        thumbnail_description: "",
+        thumbnail: ytcLandingPageSearch,
+        thumbnail_description: "thumnail 1",
       },
       {
-        thumbnail: "",
-        thumbnail_description: "",
+        thumbnail: ytcSearchResults,
+        thumbnail_description: "thumnail 1",
       },
       {
-        thumbnail: "",
-        thumbnail_description: "",
+        thumbnail: ytcVideoPageNoLogin,
+        thumbnail_description: "thumnail 1",
       },
       {
-        thumbnail: "",
-        thumbnail_description: "",
+        thumbnail: ytcVideoPageComment,
+        thumbnail_description: "thumnail 1",
       },
       {
-        thumbnail: "",
-        thumbnail_description: "",
+        thumbnail: ytcVideoPageCommentAndReply,
+        thumbnail_description: "thumnail 1",
       },
     ],
   },

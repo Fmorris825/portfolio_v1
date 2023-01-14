@@ -5,5 +5,5 @@
 }
 
 .skillsCard:hover {
-  filter: drop-shadow(3px 3px 2px whitesmoke);
+  filter: drop-shadow(3px 3px 2px black);
 }
