@@ -1,6 +1,5 @@
 import { Col, Container, Row, Image } from "react-bootstrap";
 import data from "../../data";
-import Project from "../../components/Project/Project";
 import ProjectThumbnailCard from "../../components/Project/ProjectThumbnailCard.jsx/ProjectThumbnailCard";
 import { useEffect, useState } from "react";
 
@@ -26,7 +25,9 @@ const YoutubeClone = () => {
           <Row>
             <Image className="thumbnails" src={project.project_thumbnail} />
           </Row>
-
+          <Row className="contain shadow p-3 mb-5 bg-body-tertiary rounded">
+            <div className="thumbnailText">{project.project_description}</div>
+          </Row>
           <Row>
             {project.project_thumbnail_cards.map((thumbnailCard, index) => {
               return <ProjectThumbnailCard thumbnailCard={thumbnailCard} />;

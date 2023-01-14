@@ -22,10 +22,15 @@ const MorrisDeltaRealty = () => {
       {" "}
       <Row>
         <Col xs="auto">
+          <Row className="project_name">
+            <div>{project.project_name}</div>
+          </Row>
           <Row>
             <Image className="thumbnails" src={project.project_thumbnail} />
           </Row>
-
+          <Row className="contain shadow p-3 mb-5 bg-body-tertiary rounded">
+            <div className="thumbnailText">{project.project_description}</div>
+          </Row>
           <Row>
             {project.project_thumbnail_cards.map((thumbnailCard, index) => {
               return <ProjectThumbnailCard thumbnailCard={thumbnailCard} />;

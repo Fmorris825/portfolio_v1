@@ -11,7 +11,7 @@ const Project = ({ project }) => {
           <Row>
             <Image className="thumbnails" src={project.project_thumbnail} />
           </Row>
-
+          <Row>{project.project_description}</Row>
           <Row>
             {project.project_thumbnail_cards.map((thumbnailCard, index) => {
               return <ProjectThumbnailCard thumbnailCard={thumbnailCard} />;
