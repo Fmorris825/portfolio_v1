@@ -2,3 +2,14 @@
   object-fit: contain;
   height: 500px;
 }
+
+.thumbnailText {
+  font-size: 24px;
+  text-align: center;
+}
+
+.contain {
+  background: rgba(185, 176, 176, 0.291);
+  display: flex;
+  border-radius: 10px;
+}

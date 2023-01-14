@@ -53,27 +53,62 @@ const projects = [
   {
     project_name: "Morris Delta Realty",
     project_thumbnail: CapstoneLandingPage,
-    project_description: "Real Estate Application",
+    project_description:
+      "Morris Delta Realty is a Real Estate Application that displays properties for sale and rent by the realty firm. Allows for site administraion throught a login feature by utilizing JWT Authorization. Once logged in Administratiors ",
+    tech_stack: [
+      {
+        technology: "React.js",
+      },
+      {
+        technology: "React-Boostrap Library",
+      },
+      {
+        technology: "Django REST Framework",
+      },
+      {
+        technology: "Google Places API",
+      },
+      {
+        technology: "MySQL Workbench",
+      },
+      {
+        technology: "Git & Github",
+      },
+      {
+        technology: "JWT Authorization",
+      },
+      {
+        technology: "Postman",
+      },
+      {
+        technology: "Abstract Email API",
+      },
+    ],
     project_thumbnail_cards: [
       {
         thumbnail: CapstonePropertiesPageCarousel,
-        thumbnail_description: "thumnail 1",
+        thumbnail_description:
+          "The Application provides exposure for the Firm and its properties to clients.",
       },
       {
         thumbnail: CapstonePropertiesPageCard,
-        thumbnail_description: "thumnail 2",
+        thumbnail_description:
+          "Allows clients to view properties and thier details.",
       },
       {
         thumbnail: CapstoneMapsAndNeighorsPage,
-        thumbnail_description: "thumnail 3",
+        thumbnail_description:
+          "Clients can see where properties are and what kind of business are near and in the neighborhood via a Google Maps plugin. (Google Places API)",
       },
       {
         thumbnail: CapstoneContactUsModal,
-        thumbnail_description: "thumnail 4",
+        thumbnail_description:
+          "Clients can leave an inquiry on for the firm through the 'Contact Us' button at the top right of the screen to access a form with Email Validation. (Abstract Email API)",
       },
       {
         thumbnail: CapstoneContactUsValidation,
-        thumbnail_description: "thumnail 5",
+        thumbnail_description:
+          "A validation message appears if the inquiry was successfully submitted and email was valid.",
       },
     ],
   },
@@ -81,6 +116,32 @@ const projects = [
     project_name: "Youtube Clone",
     project_thumbnail: ytcLandingPage,
     project_description: "Youtube CLone Desc",
+    tech_stack: [
+      {
+        technology: "React.js",
+      },
+      {
+        technology: "React-Boostrap Library",
+      },
+      {
+        technology: "Django REST Framework",
+      },
+      {
+        technology: "Google Places API",
+      },
+      {
+        technology: "MySQL Workbench",
+      },
+      {
+        technology: "Git & Github",
+      },
+      {
+        technology: "JWT Authorization",
+      },
+      {
+        technology: "Postman",
+      },
+    ],
     project_thumbnail_cards: [
       {
         thumbnail: ytcLandingPageSearch,
