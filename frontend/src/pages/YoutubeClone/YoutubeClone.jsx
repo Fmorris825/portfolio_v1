@@ -22,6 +22,9 @@ const YoutubeClone = () => {
       {" "}
       <Row>
         <Col xs="auto">
+          <Row className="project_name">
+            <div>{project.project_name}</div>
+          </Row>
           <Row>
             <Image className="thumbnails" src={project.project_thumbnail} />
           </Row>
