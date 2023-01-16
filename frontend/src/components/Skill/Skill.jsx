@@ -20,7 +20,7 @@ const Skill = ({ skill }) => {
 
   window.addEventListener("scroll", reveal);
   return (
-    <div className="skillsCard reveal fade-bottom">
+    <div className="skillsCard">
       <p className="skillText">{skill.skill_name}</p>
       <div className="skillIcon">
         <Image src={skill.icon_url} />

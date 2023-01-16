@@ -19,7 +19,6 @@ import "./NavBar.css";
 
 const NavBar = () => {
   const [projects, setProjects] = useState(data.projects);
-
   return (
     <Col>
       <Row>
@@ -50,13 +49,13 @@ const NavBar = () => {
           </NavbarCollapse>
           e
           {/* <Nav>
-            <NavLink href="/projects">
-              <div className="navText">Projects</div>
-            </NavLink>
-            <NavLink href="/contactme">
-              <div className="navText">Contact Me</div>
-            </NavLink>
-          </Nav> */}
+          <NavLink href="/projects">
+            <div className="navText">Projects</div>
+          </NavLink>
+          <NavLink href="/contactme">
+            <div className="navText">Contact Me</div>
+          </NavLink>
+        </Nav> */}
         </Navbar>
       </Row>
     </Col>
