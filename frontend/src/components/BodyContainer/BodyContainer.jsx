@@ -11,8 +11,7 @@ import { Routes, Route } from "react-router-dom";
 
 const BodyContainer = () => {
   return (
-    <div className="d-flex">
-      <SideMenu />{" "}
+    <div className="d-flex justify-content-center">
       <Routes>
         <Route className="d-flex" path="/" element={<LandingPage />} />
         <Route path="/projects" element={<ProjectsPage />} />

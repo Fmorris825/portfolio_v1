@@ -22,7 +22,7 @@ const NavBar = () => {
   return (
     <Col>
       <Row>
-        <Navbar className="navbar">
+        <Navbar fixed="top" className="navbar">
           <NavbarBrand className="brand" href="/">
             <div className="navTextBrand">Fredrick Morris</div>
           </NavbarBrand>

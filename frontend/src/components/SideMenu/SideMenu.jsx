@@ -1,7 +1,7 @@
 import {
-  MailOutlined,
-  SettingOutlined,
-  AppstoreAddOutlined,
+  SmileTwoTone,
+  DatabaseTwoTone,
+  ProjectTwoTone,
 } from "@ant-design/icons";
 import { Menu } from "antd";
 import { useNavigate } from "react-router-dom";
@@ -17,9 +17,9 @@ function getItem(label, key, icon, children, type) {
   };
 }
 const items = [
-  getItem("Who is Fredrick Morris?", "/"),
+  getItem("Who is Fredrick Morris?", "/", <SmileTwoTone />),
 
-  getItem("Projects", "sub2", <AppstoreAddOutlined />, [
+  getItem("Projects", "sub2", <ProjectTwoTone />, [
     getItem("Morris Delta Realty", "/Morris Delta Realty"),
     getItem("Youtube Clone", "/Youtube Clone"),
     getItem("Submenu", "sub3", null, [
@@ -27,7 +27,7 @@ const items = [
       getItem("Option 8", "8"),
     ]),
   ]),
-  getItem("Navigation Three", "sub4", <SettingOutlined />, [
+  getItem("Navigation Three", "sub4", <DatabaseTwoTone />, [
     getItem("Option 9", "9"),
     getItem("Option 10", "10"),
     getItem("Option 11", "11"),
@@ -46,6 +46,8 @@ const SideMenu = () => {
       className="sideNav"
       onClick={onClick}
       style={{
+        position: "fixed",
+        top: "100px",
         width: 256,
         boxShadow: "3px 3px 4px 4px grey",
         height: "50%",

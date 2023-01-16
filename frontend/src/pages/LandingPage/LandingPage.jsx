@@ -3,7 +3,8 @@ import "./LandingPage.css";
 import Skill from "../../components/Skill/Skill";
 
 import data from "../../data";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
+import Headshot from "./Headshot.jpg";
 
 const LandingPage = () => {
   // const [skills, setSkills] = useState([]);
@@ -18,9 +19,9 @@ const LandingPage = () => {
   // }
 
   return (
-    <div className="d-flex flex-column javascriptText">
+    <Container className="d-flex flex-column  javascriptText">
       <Container>
-        <Col sm="auto">
+        <Col xs="auto">
           <Row>
             <p className="JavascriptText1">
               <a href="https://codepen.io/grohit/">
@@ -32,6 +33,10 @@ const LandingPage = () => {
             <p className="JavascriptText2">
               <a href="https://codepen.io/grohit/">Fullstack Devloper</a>
             </p>
+          </Row>
+          <Row className="d-flex justify-content-center">
+            <Image className="headshot" src={Headshot} />
+            <Container></Container>
           </Row>
           <Row>
             {/* Map over Backend Skills */}
@@ -60,7 +65,7 @@ const LandingPage = () => {
             Fred Morris
             </a>
         </div> */}
-    </div>
+    </Container>
   );
 };
 
