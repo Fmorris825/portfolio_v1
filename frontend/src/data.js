@@ -52,6 +52,7 @@ const skills = [
 const projects = [
   {
     project_name: "Morris Delta Realty",
+    project_url: "https://fmorris825.github.io/morris-delta-realty/",
     project_thumbnail: CapstoneLandingPage,
     project_description:
       "Morris Delta Realty is a Real Estate Application that displays properties for sale and rent by the realty firm. Allows for site administraion throught a login feature by utilizing JWT Authorization. Once logged in Administratiors ",
@@ -115,7 +116,8 @@ const projects = [
   {
     project_name: "Youtube Clone",
     project_thumbnail: ytcLandingPage,
-    project_description: "Youtube CLone Desc",
+    project_description:
+      "A video player application modeled after YouTube to display videos, related videos, and played selected videos. Also includes “comment” and “reply” sections where users can interact with videos.",
     tech_stack: [
       {
         technology: "React.js",
@@ -145,23 +147,28 @@ const projects = [
     project_thumbnail_cards: [
       {
         thumbnail: ytcLandingPageSearch,
-        thumbnail_description: "thumnail 1",
+        thumbnail_description:
+          "Search bar functionality where user can search text and videos via the YouTube data base will return video related to the text search (YouTube API)",
       },
       {
         thumbnail: ytcSearchResults,
-        thumbnail_description: "thumnail 1",
+        thumbnail_description:
+          "Users can then select a video from the search results and play the video in a video player on a new page.",
       },
       {
         thumbnail: ytcVideoPageNoLogin,
-        thumbnail_description: "thumnail 1",
+        thumbnail_description:
+          "This Page will display related videos and comments and replies related to that video made by users, but users can only create new comments and replies if actively logged in. (JWT Authorization)",
       },
       {
         thumbnail: ytcVideoPageComment,
-        thumbnail_description: "thumnail 1",
+        thumbnail_description:
+          "CRUD functionality for users to Create new comments and replies on the video player page within the application only if the User is logged in (Django REST Framework)",
       },
       {
         thumbnail: ytcVideoPageCommentAndReply,
-        thumbnail_description: "thumnail 1",
+        thumbnail_description:
+          "Users can navigate to other videos via the related videos or back to the search another video within the search bar",
       },
     ],
   },
