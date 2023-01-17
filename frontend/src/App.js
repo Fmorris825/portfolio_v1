@@ -11,7 +11,7 @@ import LandingPage from "./pages/LandingPage/LandingPage";
 import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
 import MorrisDeltaRealty from "./pages/MorrisDeltaRealty/MorrisDeltaRealty";
 import YoutubeClone from "./pages/YoutubeClone/YoutubeClone";
-import Footer from "./Footer/Footer";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
