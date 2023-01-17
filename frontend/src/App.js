@@ -26,7 +26,6 @@ function App() {
         />
         <Route path="/Youtube%20Clone" element={<YoutubeClone />} />
       </Routes>
-      <Footer />
     </div>
   );
 }
