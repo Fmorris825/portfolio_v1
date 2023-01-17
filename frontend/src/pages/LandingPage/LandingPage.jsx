@@ -38,13 +38,12 @@ const LandingPage = () => {
             <Image className="headshot" src={Headshot} />
             <Container></Container>
           </Row>
-          <Row>
+          <Row className="skillsContainer">
             {/* Map over Backend Skills */}
-            <div className="skillsContainer">
-              {data.skills.map((skill, index) => {
-                return <Skill skill={skill} />;
-              })}
-            </div>
+
+            {data.skills.map((skill, index) => {
+              return <Skill skill={skill} />;
+            })}
           </Row>
         </Col>
       </Container>

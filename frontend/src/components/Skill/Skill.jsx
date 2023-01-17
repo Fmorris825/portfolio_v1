@@ -1,4 +1,4 @@
-import { Image } from "react-bootstrap";
+import { Container, Image } from "react-bootstrap";
 import "./Skill.css";
 
 const Skill = ({ skill }) => {
@@ -20,12 +20,12 @@ const Skill = ({ skill }) => {
 
   window.addEventListener("scroll", reveal);
   return (
-    <div className="skillsCard">
+    <Container className="skillsCard">
       <p className="skillText">{skill.skill_name}</p>
-      <div className="skillIcon">
+      <Container className="skillIcon">
         <Image src={skill.icon_url} />
-      </div>
-    </div>
+      </Container>
+    </Container>
   );
 };
 
