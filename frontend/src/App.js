@@ -17,15 +17,17 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/projects" element={<ProjectsPage />} />
-        <Route
-          path="/Morris%20Delta%20Realty"
-          element={<MorrisDeltaRealty />}
-        />
-        <Route path="/Youtube%20Clone" element={<YoutubeClone />} />
-      </Routes>
+      <div className="d-flex justify-content-center">
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route
+            path="/Morris%20Delta%20Realty"
+            element={<MorrisDeltaRealty />}
+          />
+          <Route path="/Youtube%20Clone" element={<YoutubeClone />} />
+        </Routes>
+      </div>
       <Footer />
     </div>
   );
