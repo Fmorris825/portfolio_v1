@@ -5,7 +5,6 @@ import {
   HomeOutlined,
   BookOutlined,
 } from "@ant-design/icons";
-import { Light } from "three";
 
 const Footer = () => {
   return (
