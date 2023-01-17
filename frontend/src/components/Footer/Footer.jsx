@@ -14,19 +14,19 @@ const Footer = () => {
         as="ul"
         className="d-flex justify-content-between footer"
       >
-        <Nav.Item as="li" className="d-flex flex-column">
+        <Nav.Item as="li" className="d-flex flex-column border">
           <HomeOutlined />
           <Nav.Link href="/">Home</Nav.Link>
         </Nav.Item>
-        <Nav.Item as="li" className="d-flex flex-column">
+        <Nav.Item as="li" className="d-flex flex-column border">
           <AppstoreOutlined />
           <Nav.Link href="/projects">Projects</Nav.Link>
         </Nav.Item>
-        <Nav.Item as="li" className="d-flex flex-column">
+        <Nav.Item as="li" className="d-flex flex-column border">
           <UserAddOutlined />
           <Nav.Link eventKey="link-2">Contact Me</Nav.Link>
         </Nav.Item>
-        <Nav.Item as="li" className="d-flex flex-column">
+        <Nav.Item as="li" className="d-flex flex-column border">
           <BookOutlined />
           <Nav.Link eventKey="link-2">Resources</Nav.Link>
         </Nav.Item>

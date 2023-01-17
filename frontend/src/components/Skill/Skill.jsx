@@ -1,4 +1,4 @@
-import { Container, Image } from "react-bootstrap";
+import { Container, Image, Row, Col } from "react-bootstrap";
 import "./Skill.css";
 
 const Skill = ({ skill }) => {
@@ -20,12 +20,16 @@ const Skill = ({ skill }) => {
 
   window.addEventListener("scroll", reveal);
   return (
-    <Container className="skillsCard">
-      <p className="skillText">{skill.skill_name}</p>
-      <Container className="skillIcon">
-        <Image src={skill.icon_url} />
-      </Container>
-    </Container>
+    <div className="skillsCard">
+      <Col xs="auto">
+        <Row className="d-flex justify-content-center">
+          <p className="skillText">{skill.skill_name}</p>
+        </Row>
+        <Row className="d-flex justify-content-center">
+          <Image className="skillIcon" src={skill.icon_url} />
+        </Row>
+      </Col>
+    </div>
   );
 };
 

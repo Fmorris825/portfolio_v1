@@ -22,7 +22,7 @@ const NavBar = () => {
   return (
     <Col>
       <Row>
-        <Navbar fixed="top" className="navbar">
+        <Navbar fixed="top" className="navbartop">
           <NavbarBrand className="brand" href="/">
             <div className="navTextBrand">Fredrick Morris</div>
           </NavbarBrand>
@@ -47,7 +47,7 @@ const NavBar = () => {
               </NavDropdown>
             </Nav>
           </NavbarCollapse>
-          e
+
           {/* <Nav>
           <NavLink href="/projects">
             <div className="navText">Projects</div>

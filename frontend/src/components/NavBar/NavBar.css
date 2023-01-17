@@ -22,7 +22,7 @@
   text-decoration: underline;
 }
 
-.navbar {
+.navbartop {
   display: flex;
   justify-content: space-around;
   gap: 30px;
