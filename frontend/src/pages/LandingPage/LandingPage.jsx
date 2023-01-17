@@ -31,13 +31,11 @@ const LandingPage = () => {
             <a href="https://codepen.io/grohit/">Fullstack Devloper</a>
           </Container>
         </Row> */}
-        <Row className="d-flex ">
-          <Col xs="auto">
-            <Image className="headshot" src={Headshot} />
-          </Col>
-        </Row>
-        <Row className="bioText">
-          <Container>
+        <Container className="d-flex justify-content-center">
+          <Image className="headshot" src={Headshot} />
+        </Container>
+        <Row>
+          <Container className="bioText">
             Hello, I am Fred Morris. I am a Environmental Biologist turned Web
             Developer. I decided to take the leap into the technology field to
             pursue my dream of being able to create and develop interfaces and

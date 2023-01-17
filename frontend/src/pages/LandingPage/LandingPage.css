@@ -72,7 +72,9 @@ a {
   border-radius: 10px;
   box-shadow: 2px 2px 2px 2px;
   padding: 0%;
-  width: 450px;
+  margin: 10px;
+  width: 350px;
+  min-width: auto;
 }
 
 .skillsContainer {
@@ -84,5 +86,5 @@ a {
 }
 
 .bioText {
-  width: 500px;
+  width: 350px;
 }
