@@ -19,7 +19,7 @@ const LandingPage = () => {
   // }
 
   return (
-    <Container>
+    <Container className="bodyC">
       {/* <Row>
           <Container className="JavascriptText1">
             <a href="https://codepen.io/grohit/">Hello, I'm Fredrick Morris</a>
