@@ -19,40 +19,42 @@ const LandingPage = () => {
   // }
 
   return (
-    <Container className="d-flex justify-content-center javascriptText">
-      <Col className="d-flex flex-column align-items-center" xs="auto">
-        {/* <Row>
+    <Container className="d-flex flex-column align-items-center javascriptText">
+      {/* <Row>
           <Container className="JavascriptText1">
             <a href="https://codepen.io/grohit/">Hello, I'm Fredrick Morris</a>
           </Container>
         </Row> */}
-        {/* <Row>
+      {/* <Row>
           <Container className="JavascriptText2">
             <a href="https://codepen.io/grohit/">Fullstack Devloper</a>
           </Container>
         </Row> */}
-        <Container className="d-flex justify-content-center">
+      <Row>
+        <Col xs={true}>
           <Image className="headshot" src={Headshot} />
-        </Container>
-        <Row>
-          <Container className="bioText">
-            Hello, I am Fred Morris. I am a Environmental Biologist turned Web
-            Developer. I decided to take the leap into the technology field to
-            pursue my dream of being able to create and develop interfaces and
-            software with own hands. Nothing is more gratfying than building
-            something with your own hands. To learn the skills to create things
-            i have attended devcodecamp, (a Computer science bootcamp) to
-            increase my knowledge in the field and learn the skills to create.
-          </Container>
-        </Row>
-        <div className="skillsContainer">
+        </Col>
+        <Col xs={true} className="bioText">
+          Hello, I am Fred Morris. I am a Environmental Biologist turned Web
+          Developer. I decided to take the leap into the technology field to
+          pursue my dream of being able to create and develop interfaces and
+          software with own hands. Nothing is more gratfying than building
+          something with your own hands. To learn the skills to create things i
+          have attended devcodecamp, (a Computer science bootcamp) to increase
+          my knowledge in the field and learn the skills to create.
+        </Col>
+      </Row>
+      {/* <Row> */}
+      {/* </Row> */}
+      <Row>
+        <Col xs={true} className="skillsContainer">
           {/* Map over Backend Skills */}
 
           {data.skills.map((skill, index) => {
             return <Skill skill={skill} />;
           })}
-        </div>
-      </Col>
+        </Col>
+      </Row>
 
       {/* Linked in Badge
         <div

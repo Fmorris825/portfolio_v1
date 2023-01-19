@@ -215,12 +215,12 @@ span:nth-child(8) {
 }
 
 body {
-  padding-top: 60px;
+  padding: 60px 0px 60px 0px;
 }
 
 .footer {
-  width: 100vw;
-  gap: 15px;
+  width: 100%;
+  /* gap: 15px; */
 }
 
 .navbar {

@@ -8,11 +8,10 @@ import {
 
 const Footer = () => {
   return (
-    <Navbar fixed="bottom" bg="light" className="navbar">
+    <Navbar fluid fixed="bottom" bg="light" className="navbar">
       <Nav
         defaultActiveKey="/"
-        as="ul"
-        className="d-flex justify-content-between footer"
+        className="d-flex justify-content-around footer"
       >
         <Nav.Item as="li" className="d-flex flex-column footborder">
           <HomeOutlined />
