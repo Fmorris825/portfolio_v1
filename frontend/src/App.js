@@ -12,6 +12,8 @@ import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
 import MorrisDeltaRealty from "./pages/MorrisDeltaRealty/MorrisDeltaRealty";
 import YoutubeClone from "./pages/YoutubeClone/YoutubeClone";
 import Footer from "./components/Footer/Footer";
+import ContactMe from "./pages/ContactMe/ContactMe";
+import Resources from "./pages/Resources/Resources";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
             element={<MorrisDeltaRealty />}
           />
           <Route path="/Youtube%20Clone" element={<YoutubeClone />} />
+          <Route path="/ContactMe" element={<ContactMe />} />
+          <Route path="/Resources" element={<Resources />} />
         </Routes>
       </div>
       <Footer />

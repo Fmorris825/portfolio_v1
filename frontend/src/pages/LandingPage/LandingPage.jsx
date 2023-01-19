@@ -19,7 +19,7 @@ const LandingPage = () => {
   // }
 
   return (
-    <Container className="d-flex flex-column align-items-center javascriptText">
+    <Container>
       {/* <Row>
           <Container className="JavascriptText1">
             <a href="https://codepen.io/grohit/">Hello, I'm Fredrick Morris</a>
@@ -30,7 +30,7 @@ const LandingPage = () => {
             <a href="https://codepen.io/grohit/">Fullstack Devloper</a>
           </Container>
         </Row> */}
-      <Row>
+      <Row className="bio">
         <Col xs={true}>
           <Image className="headshot" src={Headshot} />
         </Col>

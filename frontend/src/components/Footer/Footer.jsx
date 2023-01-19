@@ -23,11 +23,11 @@ const Footer = () => {
         </Nav.Item>
         <Nav.Item as="li" className="d-flex flex-column footborder">
           <UserAddOutlined />
-          <Nav.Link eventKey="link-2">Contact Me</Nav.Link>
+          <Nav.Link href="/ContactMe">Contact Me</Nav.Link>
         </Nav.Item>
         <Nav.Item as="li" className="d-flex flex-column footborder">
           <BookOutlined />
-          <Nav.Link eventKey="link-2">Resources</Nav.Link>
+          <Nav.Link href="/Resources">Resources</Nav.Link>
         </Nav.Item>
       </Nav>
     </Navbar>
