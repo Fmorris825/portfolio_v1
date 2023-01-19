@@ -81,7 +81,7 @@ a {
   display: flex;
   justify-content: center;
   gap: 20px;
-  width: 450px;
+  width: 380px;
   flex-wrap: wrap;
 }
 
@@ -93,5 +93,6 @@ a {
 }
 
 .bio {
-  width: 100%;
+  display: flex;
+  justify-content: center;
 }

@@ -47,13 +47,12 @@ const LandingPage = () => {
       {/* <Row> */}
       {/* </Row> */}
       <Row>
-        <Col xs={true} className="skillsContainer">
-          {/* Map over Backend Skills */}
-
+        {/* Map over Backend Skills */}
+        <Container className="skillsContainer">
           {data.skills.map((skill, index) => {
             return <Skill skill={skill} />;
           })}
-        </Col>
+        </Container>
       </Row>
 
       {/* Linked in Badge
