@@ -215,7 +215,7 @@ span:nth-child(8) {
 }
 
 body {
-  padding: 60px 0px 60px 0px;
+  padding: 100px 5px 100px 5px;
 }
 
 .footer {
@@ -230,4 +230,8 @@ body {
 
 .footborder {
   padding-top: 10px;
+}
+
+.linkIcon {
+  width: 100px;
 }
