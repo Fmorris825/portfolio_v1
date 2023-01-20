@@ -32,7 +32,7 @@ const NavBar = () => {
           </NavbarBrand>
           <NavbarToggle aria-controls="responsive-navbar-nav" />
           <NavbarCollapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
+            {/* <Nav className="me-auto">
               <NavDropdown
                 className="link"
                 id="nav-dropdown-dark-example"
@@ -49,7 +49,7 @@ const NavBar = () => {
                   );
                 })}
               </NavDropdown>
-            </Nav>
+            </Nav> */}
             <NavbarBrand>
               <GithubLink />
               <LinkedInLink />
