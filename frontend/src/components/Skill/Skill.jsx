@@ -20,7 +20,7 @@ const Skill = ({ skill }) => {
 
   window.addEventListener("scroll", reveal);
   return (
-    <div className="skillsCard">
+    <a className="skillsCard" href={skill.icon_url}>
       <Col xs="auto">
         <Row className="d-flex justify-content-center">
           <p className="skillText">{skill.skill_name}</p>
@@ -29,7 +29,7 @@ const Skill = ({ skill }) => {
           <Image className="skillIcon" src={skill.icon_url} />
         </Row>
       </Col>
-    </div>
+    </a>
   );
 };
 
