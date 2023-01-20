@@ -9,7 +9,7 @@ const MailLink = () => {
           <Image className="linkIcon" src={email}></Image>
         </a>
         <a href="mailto:CodeFredDesign@hotmail.com?subject=Hello, From Code Fred!&body=What can i help you with today?">
-          CodeFredDesign@hotmail.com
+          {/* CodeFredDesign@hotmail.com */}
         </a>
       </div>
     </Container>
