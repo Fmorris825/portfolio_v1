@@ -14,12 +14,13 @@ import YoutubeClone from "./pages/YoutubeClone/YoutubeClone";
 import Footer from "./components/Footer/Footer";
 import ContactMe from "./pages/ContactMe/ContactMe";
 import Resources from "./pages/Resources/Resources";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (
-    <div>
+    <Container>
       <NavBar />
-      <div className="d-flex justify-content-center">
+      <Container className="d-flex justify-content-center">
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
@@ -31,9 +32,9 @@ function App() {
           <Route path="/ContactMe" element={<ContactMe />} />
           <Route path="/Resources" element={<Resources />} />
         </Routes>
-      </div>
+      </Container>
       <Footer />
-    </div>
+    </Container>
   );
 }
 
