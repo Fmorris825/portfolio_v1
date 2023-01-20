@@ -18,34 +18,51 @@ const skills = [
   {
     skill_name: "Python",
     icon_url: "https://cdn-icons-png.flaticon.com/128/5968/5968350.png",
+    link: "https://www.python.org/",
+    description:
+      "Python is a programming language that lets you work more quickly and integrate your systems more effectively.",
   },
   {
     skill_name: "Javascript",
     icon_url: "https://cdn-icons-png.flaticon.com/128/5968/5968292.png",
+    link: "https://www.javascript.com/",
+    description: "test",
   },
   {
     skill_name: "Java",
     icon_url: "https://cdn-icons-png.flaticon.com/128/5968/5968282.png",
+    link: "https://www.java.com/en/",
+    description: "test",
   },
   {
     skill_name: "React.js",
     icon_url: "https://cdn-icons-png.flaticon.com/128/1126/1126012.png",
+    link: "https://reactjs.org/",
+    description: "test",
   },
   {
     skill_name: "CSS 3",
     icon_url: "https://cdn-icons-png.flaticon.com/128/5968/5968242.png",
+    link: "https://www.w3schools.com/css/",
+    description: "test",
   },
   {
     skill_name: "HTML 5",
     icon_url: "https://cdn-icons-png.flaticon.com/128/5968/5968267.png",
+    link: "https://www.w3schools.com/html/",
+    description: "test",
   },
   {
     skill_name: "Bootstrap",
     icon_url: "https://cdn-icons-png.flaticon.com/128/5968/5968672.png",
+    link: "https://getbootstrap.com/",
+    description: "test",
   },
   {
     skill_name: "Git & GitHub",
     icon_url: "https://cdn-icons-png.flaticon.com/128/5968/5968866.png",
+    link: "https://github.com/",
+    description: "test",
   },
 ];
 
