@@ -24,7 +24,7 @@ import MailLink from "../MailLink/MailLink";
 const NavBar = () => {
   const [projects, setProjects] = useState(data.projects);
   return (
-    <Col>
+    <Col xs={true}>
       <Row>
         <Navbar fixed="top" className="navbartop">
           <NavbarBrand className="brand" href="/">
@@ -50,11 +50,11 @@ const NavBar = () => {
                 })}
               </NavDropdown>
             </Nav>
-            <Nav>
+            <NavbarBrand>
               <GithubLink />
               <LinkedInLink />
               <MailLink />
-            </Nav>
+            </NavbarBrand>
           </NavbarCollapse>
 
           {/* <Nav>
