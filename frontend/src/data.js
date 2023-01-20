@@ -26,43 +26,49 @@ const skills = [
     skill_name: "Javascript",
     icon_url: "https://cdn-icons-png.flaticon.com/128/5968/5968292.png",
     link: "https://www.javascript.com/",
-    description: "test",
+    description:
+      "Javascript is used by programmers across the world to create dynamic and interactive web content like applications and browsers.",
   },
   {
     skill_name: "Java",
     icon_url: "https://cdn-icons-png.flaticon.com/128/5968/5968282.png",
     link: "https://www.java.com/en/",
-    description: "test",
+    description:
+      "Java is a programming language and computing platform first released by Sun Microsystems in 1995.",
   },
   {
     skill_name: "React.js",
     icon_url: "https://cdn-icons-png.flaticon.com/128/1126/1126012.png",
     link: "https://reactjs.org/",
-    description: "test",
+    description: "A JavaScript library for building user interfaces",
   },
   {
     skill_name: "CSS 3",
     icon_url: "https://cdn-icons-png.flaticon.com/128/5968/5968242.png",
     link: "https://www.w3schools.com/css/",
-    description: "test",
+    description:
+      "CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.",
   },
   {
     skill_name: "HTML 5",
     icon_url: "https://cdn-icons-png.flaticon.com/128/5968/5968267.png",
     link: "https://www.w3schools.com/html/",
-    description: "test",
+    description:
+      "HTML is the standard markup language for Web pages. With HTML you can create your own Website.",
   },
   {
     skill_name: "Bootstrap",
     icon_url: "https://cdn-icons-png.flaticon.com/128/5968/5968672.png",
     link: "https://getbootstrap.com/",
-    description: "test",
+    description:
+      "Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.",
   },
   {
     skill_name: "Git & GitHub",
     icon_url: "https://cdn-icons-png.flaticon.com/128/5968/5968866.png",
     link: "https://github.com/",
-    description: "test",
+    description:
+      "GitHub is a code hosting platform for version control and collaboration. Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
   },
 ];
 

@@ -13,21 +13,29 @@ const Footer = () => {
         defaultActiveKey="/"
         className="d-flex justify-content-around footer"
       >
-        <Nav.Item as="li" className="d-flex flex-column footborder">
-          <HomeOutlined />
-          <Nav.Link href="/">Home</Nav.Link>
+        <Nav.Item as="li" className="footborder">
+          <Nav.Link href="/" className="d-flex flex-column">
+            <HomeOutlined />
+            Home
+          </Nav.Link>
         </Nav.Item>
-        <Nav.Item as="li" className="d-flex flex-column footborder">
-          <AppstoreOutlined />
-          <Nav.Link href="/projects">Projects</Nav.Link>
+        <Nav.Item as="li" className="footborder">
+          <Nav.Link href="/projects" className="d-flex flex-column">
+            <AppstoreOutlined />
+            Projects
+          </Nav.Link>
         </Nav.Item>
-        <Nav.Item as="li" className="d-flex flex-column footborder">
-          <UserAddOutlined />
-          <Nav.Link href="/ContactMe">Contact Me</Nav.Link>
+        <Nav.Item as="li" className="footborder">
+          <Nav.Link href="/ContactMe" className="d-flex flex-column">
+            <UserAddOutlined />
+            Contact Me
+          </Nav.Link>
         </Nav.Item>
-        <Nav.Item as="li" className="d-flex flex-column footborder">
-          <BookOutlined />
-          <Nav.Link href="/Resources">Resources</Nav.Link>
+        <Nav.Item as="li" className="footborder">
+          <Nav.Link href="/Resources" className="d-flex flex-column">
+            <BookOutlined />
+            Resources
+          </Nav.Link>
         </Nav.Item>
       </Nav>
     </Navbar>
