@@ -31,10 +31,9 @@ const LandingPage = () => {
           </Container>
         </Row> */}
       <Row className="bio">
-        <Col xs={true}>
-          <Image className="headshot" src={Headshot} />
-        </Col>
-        <Col xs={true} className="bioText">
+        <Image className="headshot" src={Headshot} />
+
+        <Container xs={true} className="bioText">
           Hello, I am Fred Morris. I am a Environmental Biologist turned Web
           Developer. I decided to take the leap into the technology field to
           pursue my dream of being able to create and develop interfaces and
@@ -42,7 +41,7 @@ const LandingPage = () => {
           something with your own hands. To learn the skills to create things i
           have attended devcodecamp, (a Computer science bootcamp) to increase
           my knowledge in the field and learn the skills to create.
-        </Col>
+        </Container>
       </Row>
       <Row>
         {/* Map over Backend Skills */}
@@ -52,22 +51,6 @@ const LandingPage = () => {
           })}
         </Container>
       </Row>
-      <div
-        class="badge-base LI-profile-badge"
-        data-locale="en_US"
-        data-size="large"
-        data-theme="dark"
-        data-type="VERTICAL"
-        data-vanity="fredmorrisdeveloper"
-        data-version="v1"
-      >
-        <a
-          class="badge-base__link LI-simple-link"
-          href="https://www.linkedin.com/in/fredmorrisdeveloper?trk=profile-badge"
-        >
-          Fred Morris
-        </a>
-      </div>
     </Container>
   );
 };

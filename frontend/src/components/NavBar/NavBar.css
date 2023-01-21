@@ -10,12 +10,7 @@
 }
 
 .brand {
-  padding: 15px 0px 0px 40px;
-}
-
-.links {
-  display: flex;
-  justify-content: space-between;
+  margin-right: 0%;
 }
 
 .navText {
@@ -25,8 +20,6 @@
 .navbartop {
   display: flex;
   justify-content: space-around;
-  gap: 30px;
-  padding: 20px;
 }
 
 .navIcons {

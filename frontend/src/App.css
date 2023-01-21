@@ -1,10 +1,4 @@
 body {
-  background-color: black;
-  background-image: url("Mountains.jpg");
-  background-size: cover;
-  background-position: center;
-  /* width: 100vw;
-  height: 100vh; */
 }
 
 /* Text Animations */
@@ -223,15 +217,10 @@ body {
   /* gap: 15px; */
 }
 
-.navbar {
-  padding: 0px;
-  margin: 0%;
-}
-
 .footborder {
   padding-top: 10px;
 }
 
 .linkIcon {
-  width: 50px;
+  width: 30px;
 }
