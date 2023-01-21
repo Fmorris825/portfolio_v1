@@ -76,6 +76,7 @@ const projects = [
   {
     project_name: "Morris Delta Realty",
     project_url: "https://fmorris825.github.io/morris-delta-realty/",
+    project_github: "https://github.com/Fmorris825/real_estate_capstone",
     project_thumbnail: CapstoneLandingPage,
     project_description:
       "Morris Delta Realty is a Real Estate Application that displays properties for sale and rent by the realty firm. Allows for site administraion throught a login feature by utilizing JWT Authorization. Once logged in Administratiors ",
@@ -138,6 +139,8 @@ const projects = [
   },
   {
     project_name: "Youtube Clone",
+    project_url: "",
+    project_github: "https://github.com/Fmorris825/ytc",
     project_thumbnail: ytcLandingPage,
     project_description:
       "A video player application modeled after YouTube to display videos, related videos, and played selected videos. Also includes “comment” and “reply” sections where users can interact with videos.",

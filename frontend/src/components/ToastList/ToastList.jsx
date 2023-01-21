@@ -12,7 +12,7 @@ const ToastList = ({ skill, index }) => {
       <Image
         src={skill.icon_url}
         onClick={toggleShow}
-        className="toastIcon mb-2  grow "
+        className="toastIcon mb-2  grow m-3"
       />
       <Toast show={show} onClose={toggleShow}>
         <Toast.Header>

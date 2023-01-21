@@ -18,29 +18,27 @@ import { Container, Col, Row } from "react-bootstrap";
 
 function App() {
   return (
-    <Container>
-      <Col xs={true}>
-        <Row>
-          <NavBar />
-        </Row>
-        <Row>
-          <Routes>
-            <Route path="/" element={<LandingPage />} />
-            <Route path="/projects" element={<ProjectsPage />} />
-            <Route
-              path="/Morris%20Delta%20Realty"
-              element={<MorrisDeltaRealty />}
-            />
-            <Route path="/Youtube%20Clone" element={<YoutubeClone />} />
-            <Route path="/ContactMe" element={<ContactMe />} />
-            <Route path="/Resources" element={<Resources />} />
-          </Routes>
-        </Row>
-        <Row>
-          <Footer />
-        </Row>
-      </Col>
-    </Container>
+    <Col xs={true}>
+      <Row>
+        <NavBar />
+      </Row>
+      <Row>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route
+            path="/Morris%20Delta%20Realty"
+            element={<MorrisDeltaRealty />}
+          />
+          <Route path="/Youtube%20Clone" element={<YoutubeClone />} />
+          <Route path="/ContactMe" element={<ContactMe />} />
+          <Route path="/Resources" element={<Resources />} />
+        </Routes>
+      </Row>
+      <Row>
+        <Footer />
+      </Row>
+    </Col>
   );
 }
 

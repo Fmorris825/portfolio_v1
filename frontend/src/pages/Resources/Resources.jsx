@@ -8,13 +8,13 @@ import "./Resources.css";
 
 const Resources = () => {
   return (
-    <Container>
+    <Col>
       <Row>
         {data.skills.map((skill, index) => {
           return <ToastList skill={skill} key={index} index={index} />;
         })}
       </Row>
-    </Container>
+    </Col>
   );
 };
 

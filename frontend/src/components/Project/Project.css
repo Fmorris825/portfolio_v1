@@ -1,6 +1,6 @@
 .thumbnails {
   object-fit: contain;
-  height: 300px;
+  height: 500px;
 }
 
 .thumbnailText {
@@ -12,7 +12,7 @@
 .contain {
   background: rgba(185, 176, 176, 0.291);
   border-radius: 10px;
-  width: 300px;
+  display: flex;
 }
 
 .project_name {
