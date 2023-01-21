@@ -1,13 +1,19 @@
 import { useState } from "react";
 import { Image, Col, Row, Toast, Container } from "react-bootstrap";
 
+import "./ToastList.css";
+
 const ToastList = ({ skill, index }) => {
   const [show, setShow] = useState(false);
 
   const toggleShow = () => setShow(!show);
   return (
     <Col md={6} className="mb-2">
-      <Image src={skill.icon_url} onClick={toggleShow} className="mb-2" />
+      <Image
+        src={skill.icon_url}
+        onClick={toggleShow}
+        className="toastIcon mb-2  grow "
+      />
       <Toast show={show} onClose={toggleShow}>
         <Toast.Header>
           <img src={skill.icon_url} className="rounded me-2 toastImg" alt="" />

@@ -1,4 +1,4 @@
-import { Nav, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import {
   UserAddOutlined,
   AppstoreOutlined,
@@ -6,38 +6,39 @@ import {
   BookOutlined,
 } from "@ant-design/icons";
 
+import "./Footer.css";
+
 const Footer = () => {
   return (
-    <Navbar fluid fixed="bottom" bg="light" className="navbar">
-      <Nav
-        defaultActiveKey="/"
-        className="d-flex justify-content-around footer"
-      >
-        <Nav.Item as="li" className="footborder">
+    <Navbar
+      fixed="bottom"
+      bg="light"
+      variant="light"
+      className="navbar bottomNav"
+    >
+      <Container>
+        <Nav className="d-flex justify-content-evenly footer">
           <Nav.Link href="/" className="d-flex flex-column">
             <HomeOutlined />
             Home
           </Nav.Link>
-        </Nav.Item>
-        <Nav.Item as="li" className="footborder">
-          <Nav.Link href="/projects" className="d-flex flex-column">
+
+          <Nav.Link className="d-flex flex-column" href="/projects">
             <AppstoreOutlined />
             Projects
           </Nav.Link>
-        </Nav.Item>
-        <Nav.Item as="li" className="footborder">
+
           <Nav.Link href="/ContactMe" className="d-flex flex-column">
             <UserAddOutlined />
             Contact Me
           </Nav.Link>
-        </Nav.Item>
-        <Nav.Item as="li" className="footborder">
+
           <Nav.Link href="/Resources" className="d-flex flex-column">
             <BookOutlined />
             Resources
           </Nav.Link>
-        </Nav.Item>
-      </Nav>
+        </Nav>
+      </Container>
     </Navbar>
   );
 };

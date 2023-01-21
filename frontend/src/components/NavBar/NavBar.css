@@ -25,3 +25,7 @@
 .navIcons {
   width: 25px;
 }
+
+.topNav {
+  box-shadow: 5px 10px 10px grey;
+}

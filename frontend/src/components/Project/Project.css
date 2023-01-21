@@ -1,18 +1,18 @@
 .thumbnails {
   object-fit: contain;
-  height: 500px;
+  height: 300px;
 }
 
 .thumbnailText {
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
   text-shadow: 1px 1px 1px black;
 }
 
 .contain {
   background: rgba(185, 176, 176, 0.291);
-  display: flex;
   border-radius: 10px;
+  width: 300px;
 }
 
 .project_name {

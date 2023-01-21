@@ -16,7 +16,14 @@ import MailLink from "../MailLink/MailLink";
 const NavBar = () => {
   const [projects, setProjects] = useState(data.projects);
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      bg="dark"
+      variant="dark"
+      fixed="top"
+      className="topNav"
+    >
       <Container>
         <Navbar.Brand href="/">Fredrick Morris</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

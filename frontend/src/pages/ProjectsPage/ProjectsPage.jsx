@@ -6,15 +6,11 @@ import "./ProjectsPage.css";
 const ProjectsPage = () => {
   console.log(data.projects);
   return (
-    <Container className="ProjectsPageBody">
-      <Row>
-        <Col xs="auto">
-          {data.projects.map((project, index) => {
-            return <Project project={project} />;
-          })}
-        </Col>
-      </Row>
-    </Container>
+    <Row className="d-flex justify-content-center">
+      {data.projects.map((project, index) => {
+        return <Project project={project} />;
+      })}
+    </Row>
   );
 };
 

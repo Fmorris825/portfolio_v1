@@ -5,23 +5,12 @@ import ProjectThumbnailCard from "./ProjectThumbnailCard.jsx/ProjectThumbnailCar
 const Project = ({ project }) => {
   console.log(project);
   return (
-    <Container>
+    <Row className="d-flex justify-content-center m-3">
       <Row>
-        <Col xs="auto">
-          <Row>
-            <Image className="thumbnails" src={project.project_thumbnail} />
-          </Row>
-          <Row className="thumbnailText contain">
-            {project.project_description}
-          </Row>
-          <Row>
-            {project.project_thumbnail_cards.map((thumbnailCard, index) => {
-              return <ProjectThumbnailCard thumbnailCard={thumbnailCard} />;
-            })}
-          </Row>
-        </Col>
+        <Image className="thumbnails grow" src={project.project_thumbnail} />
       </Row>
-    </Container>
+      <Row className="contain m-3">{project.project_description}</Row>
+    </Row>
   );
 };
 

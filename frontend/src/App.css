@@ -1,4 +1,5 @@
 body {
+  background-color: #e8000c2f;
 }
 
 /* Text Animations */
@@ -210,15 +211,6 @@ span:nth-child(8) {
 
 body {
   padding: 100px 5px 100px 5px;
-}
-
-.footer {
-  width: 100%;
-  /* gap: 15px; */
-}
-
-.footborder {
-  padding-top: 10px;
 }
 
 .linkIcon {
