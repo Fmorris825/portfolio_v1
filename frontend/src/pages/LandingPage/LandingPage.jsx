@@ -19,21 +19,11 @@ const LandingPage = () => {
   // }
 
   return (
-    <Container className="bodyC">
-      {/* <Row>
-          <Container className="JavascriptText1">
-            <a href="https://codepen.io/grohit/">Hello, I'm Fredrick Morris</a>
-          </Container>
-        </Row> */}
-      {/* <Row>
-          <Container className="JavascriptText2">
-            <a href="https://codepen.io/grohit/">Fullstack Devloper</a>
-          </Container>
-        </Row> */}
-      <Row className="bio">
+    <Col xs={true} className="bodyC">
+      <Row className="d-flex justify-content-center">
         <Image className="headshot" src={Headshot} />
 
-        <Container xs={true} className="bioText">
+        <p xs={true} className="bioText">
           Hello, I am Fred Morris. I am a Environmental Biologist turned Web
           Developer. I decided to take the leap into the technology field to
           pursue my dream of being able to create and develop interfaces and
@@ -41,8 +31,9 @@ const LandingPage = () => {
           something with your own hands. To learn the skills to create things i
           have attended devcodecamp, (a Computer science bootcamp) to increase
           my knowledge in the field and learn the skills to create.
-        </Container>
+        </p>
       </Row>
+
       <Row>
         {/* Map over Backend Skills */}
         <Container className="skillsContainer">
@@ -51,7 +42,7 @@ const LandingPage = () => {
           })}
         </Container>
       </Row>
-    </Container>
+    </Col>
   );
 };
 

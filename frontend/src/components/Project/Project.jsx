@@ -8,9 +8,6 @@ const Project = ({ project }) => {
     return (
       <Row className="d-flex justify-content-center m-3">
         <Col>
-          <Image className="thumbnails grow" src={project.project_thumbnail} />
-        </Col>
-        <Col>
           <Container>
             <Row className="d-flex justify-content-center m-3">
               {project.project_name}
@@ -23,6 +20,12 @@ const Project = ({ project }) => {
                 Github Repository
               </a>
             </Row>
+            <Row className="d-flex justify-content-center">
+              <Image
+                className="thumbnails grow pic"
+                src={project.project_thumbnail}
+              />
+            </Row>
             <Row className="contain m-3">
               <p>{project.project_description}</p>
             </Row>
@@ -32,9 +35,6 @@ const Project = ({ project }) => {
     );
   return (
     <Row className="d-flex justify-content-center m-3">
-      <Col>
-        <Image className="thumbnails grow" src={project.project_thumbnail} />
-      </Col>
       <Col>
         <Container>
           <Row className="d-flex justify-content-center m-3">
@@ -55,6 +55,12 @@ const Project = ({ project }) => {
             >
               Live Application
             </a>
+          </Row>
+          <Row className="d-flex justify-content-center">
+            <Image
+              className="thumbnails grow pic"
+              src={project.project_thumbnail}
+            />
           </Row>
           <Row className="contain m-3">
             <p>{project.project_description}</p>

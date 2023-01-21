@@ -1,6 +1,6 @@
 .thumbnails {
   object-fit: contain;
-  height: 500px;
+  width: 1000px;
 }
 
 .thumbnailText {

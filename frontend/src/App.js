@@ -22,7 +22,7 @@ function App() {
       <Row>
         <NavBar />
       </Row>
-      <Row>
+      <Container>
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
@@ -34,7 +34,7 @@ function App() {
           <Route path="/ContactMe" element={<ContactMe />} />
           <Route path="/Resources" element={<Resources />} />
         </Routes>
-      </Row>
+      </Container>
       <Row>
         <Footer />
       </Row>
