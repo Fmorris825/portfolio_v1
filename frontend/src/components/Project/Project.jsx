@@ -1,5 +1,6 @@
 import { Container, Image, Row, Col } from "react-bootstrap";
 import "./Project.css";
+import ProjectThumbnail from "./ProjectThumbnail/ProjectThumbnail";
 import ProjectThumbnailCard from "./ProjectThumbnailCard.jsx/ProjectThumbnailCard";
 
 const Project = ({ project }) => {
@@ -21,10 +22,7 @@ const Project = ({ project }) => {
               </a>
             </Row>
             <Row className="d-flex justify-content-center">
-              <Image
-                className="thumbnails grow pic"
-                src={project.project_thumbnail}
-              />
+              <ProjectThumbnail project={project} />
             </Row>
             <Row className="contain m-3">
               <p>{project.project_description}</p>
@@ -57,10 +55,7 @@ const Project = ({ project }) => {
             </a>
           </Row>
           <Row className="d-flex justify-content-center">
-            <Image
-              className="thumbnails grow pic"
-              src={project.project_thumbnail}
-            />
+            <ProjectThumbnail project={project} />
           </Row>
           <Row className="contain m-3">
             <p>{project.project_description}</p>
