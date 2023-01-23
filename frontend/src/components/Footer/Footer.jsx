@@ -33,10 +33,10 @@ const Footer = () => {
             Contact Me
           </Nav.Link>
 
-          <Nav.Link href="/Resources" className="d-flex flex-column">
+          {/* <Nav.Link href="/Resources" className="d-flex flex-column">
             <BookOutlined />
             Resources
-          </Nav.Link>
+          </Nav.Link> */}
         </Nav>
       </Container>
     </Navbar>

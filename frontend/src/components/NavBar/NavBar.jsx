@@ -29,7 +29,7 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <NavDropdown
+            {/* <NavDropdown
               title="Projects"
               id="collasible-nav-dropdown"
               className="link"
@@ -43,7 +43,7 @@ const NavBar = () => {
                   </NavDropdown.Item>
                 );
               })}
-            </NavDropdown>
+            </NavDropdown> */}
           </Nav>
           <Nav className="d-flex gap-2">
             <GithubLink />

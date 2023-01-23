@@ -20,7 +20,7 @@ const Skill = ({ skill }) => {
 
   window.addEventListener("scroll", reveal);
   return (
-    <a className="skillsCard grow " href={skill.link}>
+    <a className="skillsCard grow p-3" href={skill.link}>
       <Col xs="auto">
         <Row className="d-flex justify-content-center">
           <p className="skillText">{skill.skill_name}</p>

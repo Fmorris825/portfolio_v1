@@ -21,14 +21,20 @@ const LandingPage = () => {
   return (
     <Col xs={true} className="bodyC">
       <Row className="d-flex justify-content-center">
-        <h1 className="title">Welcome to my Creative Space</h1>
+        <h1 className="title">Fredrick Morris</h1>
+        <h2 className="subTitle">Frontend Web Developer</h2>
+        <h3 className="subTitle">
+          Specialization in creating user interfaces with{" "}
+          <span className="animate-charcter">React.js </span>
+        </h3>
         <Image className="headshot" src={Headshot} />
 
         <p className="bioText">
-          Hello, Welcome to my creative space aka my portfolio. I am a
-          Environmental Biologist turned Web Developer. I decided to take the
-          leap into the <span className="animate-charcter">technology</span>{" "}
-          field to pursue my dream of being able to create and develop{" "}
+          Hello, I am Fredrick Morris or Fred for short.
+          <br /> <br /> I am a Environmental Biologist turned Web Developer. I
+          decided to take the leap into the{" "}
+          <span className="animate-charcter">technology</span> field to pursue
+          my dream of being able to create and develop{" "}
           <span className="animate-charcter">interactive user interfaces</span>.
           Nothing is more gratifying than building something with your own
           hands, weather it be a house, sculpture, or web application. All are
@@ -36,11 +42,11 @@ const LandingPage = () => {
           <br /> <br />I started my learning formally by attending and
           completing devcodecamp, (Software Development & Engineering Bootcamp)
           to increase my knowledge in the field and learn the skills to create.
-          During my time I was able to learn and devlop my skills in:
         </p>
       </Row>
 
       <Row>
+        <h3 className="subTitle m-4">My Skills and Technologies:</h3>
         {/* Map over Backend Skills */}
         <Container className="skillsContainer">
           {data.skills.map((skill, index) => {
