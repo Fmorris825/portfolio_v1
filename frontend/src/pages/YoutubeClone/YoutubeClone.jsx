@@ -25,7 +25,7 @@ const YoutubeClone = () => {
           <Row className="project_name">
             <div>{project.project_name}</div>
           </Row>
-          <Row>
+          <Row className="d-flex justify-content-center">
             <Image className="thumbnails" src={project.project_thumbnail} />
           </Row>
           <Row className="contain shadow p-3 mb-5 bg-body-tertiary rounded">

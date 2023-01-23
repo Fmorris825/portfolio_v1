@@ -10,6 +10,14 @@ const Resources = () => {
   return (
     <Col>
       <Row>
+        <Container>
+          <h1>
+            Here are some of my favorite resources to build with including
+            Frameworks, Libraries, and Languages.
+          </h1>
+        </Container>
+      </Row>
+      <Row>
         {data.skills.map((skill, index) => {
           return <ToastList skill={skill} key={index} index={index} />;
         })}

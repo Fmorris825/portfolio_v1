@@ -21,7 +21,7 @@ const ProjectThumbnailCard = ({ thumbnailCard }) => {
   return (
     <Container className="reveal fade-bottom">
       <Col xs="auto">
-        <Row>
+        <Row className="d-flex justify-content-center">
           <Image className="thumbnails" src={thumbnailCard.thumbnail} />
         </Row>
         <Row className="contain shadow p-3 mb-5 bg-body-tertiary rounded">

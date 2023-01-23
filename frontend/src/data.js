@@ -70,6 +70,14 @@ const skills = [
     description:
       "GitHub is a code hosting platform for version control and collaboration. Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
   },
+  {
+    skill_name: "Postman",
+    icon_url:
+      "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
+    link: "https://www.postman.com/",
+    description:
+      "Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.",
+  },
 ];
 
 const projects = [

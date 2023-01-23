@@ -46,14 +46,14 @@ const Project = ({ project }) => {
               Github Repository
             </a>
           </Row>
-          <Row>
+          {/* <Row>
             <a
               className="d-flex justify-content-center"
               href={project.project_url}
             >
               Live Application
             </a>
-          </Row>
+          </Row> */}
           <Row className="d-flex justify-content-center">
             <ProjectThumbnail project={project} />
           </Row>

@@ -45,7 +45,7 @@ const NavBar = () => {
               })}
             </NavDropdown>
           </Nav>
-          <Nav>
+          <Nav className="d-flex gap-2">
             <GithubLink />
             <LinkedInLink />
             <MailLink />
