@@ -24,7 +24,7 @@ const LandingPage = () => {
         <h1 className="title">Welcome to my Creative Space</h1>
         <Image className="headshot" src={Headshot} />
 
-        <p xs={true} className="bioText">
+        <p className="bioText">
           Hello, Welcome to my creative space aka my portfolio. I am a
           Environmental Biologist turned Web Developer. I decided to take the
           leap into the <span className="animate-charcter">technology</span>{" "}
@@ -36,7 +36,7 @@ const LandingPage = () => {
           <br /> <br />I started my learning formally by attending and
           completing devcodecamp, (Software Development & Engineering Bootcamp)
           to increase my knowledge in the field and learn the skills to create.
-          During my time
+          During my time I was able to learn and devlop my skills in:
         </p>
       </Row>
 
@@ -44,7 +44,7 @@ const LandingPage = () => {
         {/* Map over Backend Skills */}
         <Container className="skillsContainer">
           {data.skills.map((skill, index) => {
-            return <Skill skill={skill} />;
+            return <Skill skill={skill} key={index} />;
           })}
         </Container>
       </Row>
