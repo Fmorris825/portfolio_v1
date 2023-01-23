@@ -18,7 +18,7 @@ const ToastList = ({ skill, index }) => {
         <Toast.Header>
           <img src={skill.icon_url} className="rounded me-2 toastImg" alt="" />
           <strong className="me-auto">{skill.skill_name}</strong>
-          <small>Use case</small>
+          <small>{skill.use_case}</small>
         </Toast.Header>
         <Toast.Body>
           <div>{skill.description}</div>

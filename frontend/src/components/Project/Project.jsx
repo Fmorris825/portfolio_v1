@@ -1,17 +1,25 @@
 import { Container, Image, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./Project.css";
 import ProjectThumbnail from "./ProjectThumbnail/ProjectThumbnail";
 import ProjectThumbnailCard from "./ProjectThumbnailCard.jsx/ProjectThumbnailCard";
 
 const Project = ({ project }) => {
-  console.log(project);
   if (!project.project_url)
     return (
       <Row className="d-flex justify-content-center m-3">
         <Col>
           <Container>
-            <Row className="d-flex justify-content-center m-3">
-              {project.project_name}
+            <Row>
+              <Link
+                className="d-flex justify-content-center"
+                to={project.project_name}
+              >
+                {project.project_name}
+              </Link>
+              <p className="d-flex justify-content-center">
+                Click for Application breakdown
+              </p>
             </Row>
             <Row>
               <a
@@ -35,8 +43,16 @@ const Project = ({ project }) => {
     <Row className="d-flex justify-content-center m-3">
       <Col>
         <Container>
-          <Row className="d-flex justify-content-center m-3">
-            {project.project_name}
+          <Row>
+            <Link
+              className="d-flex justify-content-center"
+              to={project.project_name}
+            >
+              {project.project_name}
+            </Link>
+            <p className="d-flex justify-content-center">
+              Click for Application breakdown
+            </p>
           </Row>
           <Row>
             <a

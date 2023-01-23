@@ -37,7 +37,7 @@ const NavBar = () => {
               {projects.map((project, index) => {
                 return (
                   <NavDropdown.Item key={index}>
-                    <Link to={project.project_name}>
+                    <Link to={`projects/${project.project_name}`}>
                       {project.project_name}
                     </Link>
                   </NavDropdown.Item>

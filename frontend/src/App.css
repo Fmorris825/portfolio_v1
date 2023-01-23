@@ -1,5 +1,5 @@
 body {
-  background-color: #e8000c2f;
+  background-color: #4638392f;
 }
 
 /* Text Animations */
@@ -214,5 +214,16 @@ body {
 }
 
 .linkIcon {
-  width: 30px;
+  width: 40px;
+  filter: drop-shadow(1px 1px 2px aliceblue);
+}
+
+.linkIcon:hover {
+  filter: drop-shadow(1px 1px 2px rgb(0, 129, 243));
+}
+
+.iconText {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
 }

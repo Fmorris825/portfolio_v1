@@ -21,6 +21,7 @@ const skills = [
     link: "https://www.python.org/",
     description:
       "Python is a programming language that lets you work more quickly and integrate your systems more effectively.",
+    use_case: "Programming Language",
   },
   {
     skill_name: "Javascript",
@@ -28,6 +29,7 @@ const skills = [
     link: "https://www.javascript.com/",
     description:
       "Javascript is used by programmers across the world to create dynamic and interactive web content like applications and browsers.",
+    use_case: "Programmin Language",
   },
   {
     skill_name: "Java",
@@ -35,12 +37,14 @@ const skills = [
     link: "https://www.java.com/en/",
     description:
       "Java is a programming language and computing platform first released by Sun Microsystems in 1995.",
+    use_case: "Programming Language",
   },
   {
     skill_name: "React.js",
     icon_url: "https://cdn-icons-png.flaticon.com/128/1126/1126012.png",
     link: "https://reactjs.org/",
     description: "A JavaScript library for building user interfaces",
+    use_case: "Javascript Library",
   },
   {
     skill_name: "CSS 3",
@@ -48,6 +52,7 @@ const skills = [
     link: "https://www.w3schools.com/css/",
     description:
       "CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.",
+    use_case: "Style Sheet Language",
   },
   {
     skill_name: "HTML 5",
@@ -55,6 +60,7 @@ const skills = [
     link: "https://www.w3schools.com/html/",
     description:
       "HTML is the standard markup language for Web pages. With HTML you can create your own Website.",
+    use_case: "Hypertext Mark-up Language",
   },
   {
     skill_name: "Bootstrap",
@@ -62,13 +68,15 @@ const skills = [
     link: "https://getbootstrap.com/",
     description:
       "Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.",
+    use_case: "CSS Library",
   },
   {
-    skill_name: "Git & GitHub",
+    skill_name: "GitHub",
     icon_url: "https://cdn-icons-png.flaticon.com/128/5968/5968866.png",
     link: "https://github.com/",
     description:
       "GitHub is a code hosting platform for version control and collaboration. Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
+    use_case: "Version Control Platform",
   },
   {
     skill_name: "Postman",
@@ -77,6 +85,16 @@ const skills = [
     link: "https://www.postman.com/",
     description:
       "Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.",
+    use_case: "API and Endpoint Platform",
+  },
+  {
+    skill_name: "Firebase (Database)",
+    icon_url:
+      "https://seeklogo.com/images/F/firebase-logo-402F407EE0-seeklogo.com.png",
+    link: "https://firebase.google.com/docs/database",
+    description:
+      "The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client.",
+    use_case: "Cloud Database Platform",
   },
 ];
 

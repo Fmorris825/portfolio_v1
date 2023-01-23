@@ -27,10 +27,10 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route
-            path="/Morris%20Delta%20Realty"
+            path="projects/Morris%20Delta%20Realty"
             element={<MorrisDeltaRealty />}
           />
-          <Route path="/Youtube%20Clone" element={<YoutubeClone />} />
+          <Route path="projects/Youtube%20Clone" element={<YoutubeClone />} />
           <Route path="/ContactMe" element={<ContactMe />} />
           <Route path="/Resources" element={<Resources />} />
         </Routes>
