@@ -62,13 +62,13 @@ body {
   }
 }
 
-span {
+/* span {
   display: flex;
   opacity: 0;
   filter: blur(4px);
-}
+} */
 
-span:nth-child(1) {
+/* span:nth-child(1) {
   animation: fade-in 1.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
@@ -98,7 +98,7 @@ span:nth-child(7) {
 
 span:nth-child(8) {
   animation: fade-in 1.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
+} */
 
 @keyframes fade-in {
   100% {

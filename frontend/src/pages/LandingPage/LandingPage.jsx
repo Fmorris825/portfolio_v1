@@ -21,16 +21,24 @@ const LandingPage = () => {
   return (
     <Col xs={true} className="bodyC">
       <Row className="d-flex justify-content-center">
+        <h1 className="title">Welcome to my Creative Space</h1>
         <Image className="headshot" src={Headshot} />
 
         <p xs={true} className="bioText">
-          Hello, I am Fred Morris. I am a Environmental Biologist turned Web
-          Developer. I decided to take the leap into the technology field to
-          pursue my dream of being able to create and develop interfaces and
-          software with own hands. Nothing is more gratfying than building
-          something with your own hands. To learn the skills to create things i
-          have attended devcodecamp, (a Computer science bootcamp) to increase
-          my knowledge in the field and learn the skills to create.
+          Hello, Welcome to my creative space aka my portfolio. I am a
+          Environmental Biologist turned Web Developer. I decided to take the
+          leap into the <span className="animate-charcter">technology</span>{" "}
+          field to pursue my dream of being able to create and develop{" "}
+          <span className="animate-charcter">interactive user interfaces</span>.
+          Nothing is more gratifying than building something with your own
+          hands, weather it be a house, sculpture, or web application. All are
+          works of art in thier own persepctives.
+        </p>
+        <p>
+          I started my learning formally by attending and completing
+          devcodecamp, (Software Development & Engineering Bootcamp) to increase
+          my knowledge in the field and learn the skills to create. During my
+          time
         </p>
       </Row>
 
