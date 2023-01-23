@@ -33,12 +33,10 @@ const LandingPage = () => {
           Nothing is more gratifying than building something with your own
           hands, weather it be a house, sculpture, or web application. All are
           works of art in thier own persepctives.
-        </p>
-        <p>
-          I started my learning formally by attending and completing
-          devcodecamp, (Software Development & Engineering Bootcamp) to increase
-          my knowledge in the field and learn the skills to create. During my
-          time
+          <br /> <br />I started my learning formally by attending and
+          completing devcodecamp, (Software Development & Engineering Bootcamp)
+          to increase my knowledge in the field and learn the skills to create.
+          During my time
         </p>
       </Row>
 
