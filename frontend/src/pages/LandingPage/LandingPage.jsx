@@ -37,7 +37,7 @@ const LandingPage = () => {
           my dream of being able to create and develop{" "}
           <span className="animate-charcter">interactive user interfaces</span>.
           Nothing is more gratifying than building something with your own
-          hands, weather it be a house, sculpture, or web application. All are
+          hands, whether it be a house, sculpture, or web application. All are
           works of art in thier own persepctives.
           <br /> <br />I started my learning formally by attending and
           completing devcodecamp, (Software Development & Engineering Bootcamp)
