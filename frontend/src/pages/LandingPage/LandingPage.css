@@ -125,21 +125,3 @@ a {
     background-position: 200% center;
   }
 }
-
-/* Custom Font for Header */
-@import url("https://fonts.googleapis.com/css?family=Solitreo&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Exo&display=swap");
-
-.title {
-  text-align: center;
-  font-family: "Solitreo", sans-serif;
-}
-
-.subTitle {
-  font-family: "Exo", sans-serif;
-  text-align: center;
-}
-
-p {
-  font-family: "Exo", sans-serif;
-}

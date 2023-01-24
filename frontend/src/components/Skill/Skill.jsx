@@ -23,7 +23,7 @@ const Skill = ({ skill }) => {
     <a className="skillsCard grow p-3" href={skill.link}>
       <Col xs="auto">
         <Row className="d-flex justify-content-center">
-          <p className="skillText">{skill.skill_name}</p>
+          <h1 className="skillText">{skill.skill_name}</h1>
         </Row>
         <Row className="d-flex justify-content-center">
           <Image className="skillIcon" src={skill.icon_url} />

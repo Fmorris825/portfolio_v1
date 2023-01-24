@@ -38,7 +38,7 @@ const Project = ({ project }) => {
 
               <Col className="d-flex align-items-center">
                 <Container className="techStackContainer m-2">
-                  <h3>Tech Stack:</h3>
+                  <h1>Tech Stack:</h1>
                   <ul>
                     {" "}
                     {project.tech_stack.map((tech, index) => {
@@ -94,7 +94,7 @@ const Project = ({ project }) => {
 
             <Col className="d-flex align-items-center">
               <Container className="techStackContainer m-2">
-                <h3>Tech Stack:</h3>
+                <h1>Tech Stack:</h1>
                 <ul>
                   {" "}
                   {project.tech_stack.map((tech, index) => {

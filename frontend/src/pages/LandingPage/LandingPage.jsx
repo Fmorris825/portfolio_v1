@@ -45,8 +45,8 @@ const LandingPage = () => {
         </p>
       </Row>
 
-      <Row>
-        <h3 className="subTitle m-4">My Skills and Technologies:</h3>
+      <Row className="d-flex justify-content-center">
+        <h1 className="subTitle m-4">My Skills and Technologies:</h1>
         {/* Map over Backend Skills */}
         <Container className="skillsContainer">
           {data.skills.map((skill, index) => {

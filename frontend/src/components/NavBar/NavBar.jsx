@@ -25,7 +25,9 @@ const NavBar = () => {
       className="topNav"
     >
       <Container>
-        <Navbar.Brand href="/">Fredrick Morris</Navbar.Brand>
+        <Navbar.Brand href="/">
+          <h1>Fredrick Morris</h1>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
