@@ -33,15 +33,16 @@ const LandingPage = () => {
           Hello, I am Fredrick Morris or Fred for short.
           <br /> <br /> I am a Environmental Biologist turned Web Developer. I
           decided to take the leap into the{" "}
-          <span className="animate-charcter">technology</span> field to pursue
-          my dream of being able to create and develop{" "}
-          <span className="animate-charcter">interactive user interfaces</span>.
-          Nothing is more gratifying than building something with your own
-          hands, whether it be a house, sculpture, or web application. All are
-          works of art in thier own persepctives.
-          <br /> <br />I started my learning formally by attending and
-          completing devcodecamp, (Software Development & Engineering Bootcamp)
-          to increase my knowledge in the field and learn the skills to create.
+          <span className="animate-charcter">technology</span> field to pursue a
+          different aspect of my interest of being able to create and develop{" "}
+          <span className="animate-charcter">user interfaces.</span>. Nothing is
+          more gratifying than building a project with your own hands, whether
+          it be a house, sculpture, or web application. All are works of art in
+          thier own persepctives.
+          <br /> <br />I started my learning journey with code, formally by
+          attending and completing devcodecamp, (Software Development &
+          Engineering Bootcamp) to increase my knowledge in the field and learn
+          the skills to needed create.
         </p>
       </Row>
 
