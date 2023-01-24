@@ -19,7 +19,7 @@ const ContactMe = () => {
         <Container className="d-flex">
           <GithubLink />
           <a className="iconText" href="https://github.com/Fmorris825">
-            <h3>Fred's Github</h3>
+            <h3 className="contactText">Fred's Github</h3>
           </a>
         </Container>
         <Container className="d-flex">
@@ -28,7 +28,7 @@ const ContactMe = () => {
             className="iconText"
             href="https://www.linkedin.com/in/fredmorrisdeveloper/"
           >
-            <h3>Fred's LinkedIn</h3>
+            <h3 className="contactText">Fred's LinkedIn</h3>
           </a>
         </Container>
         <Container className="d-flex">
@@ -37,7 +37,7 @@ const ContactMe = () => {
             className="iconText"
             href="mailto:CodeFredDesign@hotmail.com?subject=Hello, From Code Fred!&body=What can i help you with today?"
           >
-            <h3>CodeFredDesign@hotmail.com</h3>
+            <h3 className="contactText">CodeFredDesign@hotmail.com</h3>
           </a>
         </Container>
       </Col>
