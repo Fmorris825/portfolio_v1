@@ -6,7 +6,7 @@
 .thumbnailText {
   font-size: 18px;
   text-align: center;
-  text-shadow: 1px 1px 1px black;
+  font-weight: bolder;
 }
 
 .contain {

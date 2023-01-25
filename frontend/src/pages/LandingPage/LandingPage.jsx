@@ -35,7 +35,7 @@ const LandingPage = () => {
           decided to take the leap into the{" "}
           <span className="animate-charcter">technology</span> field to pursue a
           different aspect of my interest of being able to create and develop{" "}
-          <span className="animate-charcter">user interfaces.</span>. Nothing is
+          <span className="animate-charcter">user interfaces.</span> Nothing is
           more gratifying than building a project with your own hands, whether
           it be a house, sculpture, or web application. All are works of art in
           thier own persepctives.

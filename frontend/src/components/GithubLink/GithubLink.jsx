@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const GithubLink = () => {
   return (
-    <a to="https://github.com/Fmorris825" className="d-flex">
+    <a href="https://github.com/Fmorris825" className="d-flex">
       <Image className="linkIcon" src={github}></Image>
     </a>
   );

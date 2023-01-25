@@ -21,7 +21,7 @@ const Project = ({ project }) => {
                 to={project.project_name}
               >
                 <Button variant="dark" className="shadow bg-dark rounded">
-                  Click here Application Breakdown
+                  Click here for Application Breakdown
                 </Button>
               </Link>
             </Row>
@@ -69,7 +69,7 @@ const Project = ({ project }) => {
               to={project.project_name}
             >
               <Button variant="dark" className="shadow bg-dark rounded">
-                Click here Application Breakdown
+                Click here for Application Breakdown
               </Button>
             </Link>
           </Row>
