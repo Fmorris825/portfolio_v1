@@ -27,12 +27,14 @@ const Project = ({ project }) => {
               </div>
             </Row>
             <Row>
-              <a
-                className="d-flex justify-content-center githublink"
-                href={project.project_github}
-              >
-                Github Repository
-              </a>
+              <div className="d-flex justify-content-center">
+                <a
+                  className="d-flex justify-content-center githublink"
+                  href={project.project_github}
+                >
+                  Github Repository
+                </a>
+              </div>
             </Row>
             <Row className="d-flex justify-content-center">
               <ProjectThumbnail project={project} />
@@ -76,12 +78,14 @@ const Project = ({ project }) => {
             </div>
           </Row>
           <Row>
-            <a
-              className="d-flex justify-content-center githublink"
-              href={project.project_github}
-            >
-              Github Repository
-            </a>
+            <div className="d-flex justify-content-center">
+              <a
+                className="d-flex justify-content-center githublink"
+                href={project.project_github}
+              >
+                Github Repository
+              </a>
+            </div>
           </Row>
           {/* <Row>
             <a
