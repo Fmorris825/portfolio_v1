@@ -15,15 +15,16 @@ const Project = ({ project }) => {
               <h1 className="d-flex justify-content-center">
                 {project.project_name}
               </h1>
-
-              <Link
-                className="d-flex justify-content-center"
-                to={project.project_name}
-              >
-                <Button variant="dark" className="shadow bg-dark rounded">
-                  Click here for Application Breakdown
-                </Button>
-              </Link>
+              <div className="d-flex justify-content-center">
+                <Link
+                  className="d-flex justify-content-center"
+                  to={project.project_name}
+                >
+                  <Button variant="dark" className="shadow bg-dark rounded">
+                    Click here for Application Breakdown
+                  </Button>
+                </Link>
+              </div>
             </Row>
             <Row>
               <a
@@ -63,15 +64,16 @@ const Project = ({ project }) => {
             <h1 className="d-flex justify-content-center">
               {project.project_name}
             </h1>
-
-            <Link
-              className="d-flex justify-content-center"
-              to={project.project_name}
-            >
-              <Button variant="dark" className="shadow bg-dark rounded">
-                Click here for Application Breakdown
-              </Button>
-            </Link>
+            <div className="d-flex justify-content-center">
+              <Link
+                className="d-flex justify-content-center"
+                to={project.project_name}
+              >
+                <Button variant="dark" className="shadow bg-dark rounded">
+                  Click here for Application Breakdown
+                </Button>
+              </Link>
+            </div>
           </Row>
           <Row>
             <a

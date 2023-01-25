@@ -4,14 +4,10 @@
   text-align: center;
 }
 
-.skillsCard:hover {
-  filter: drop-shadow(3px 3px 2px black);
-}
-
 .skillIcon {
   width: 100px;
 
-  filter: drop-shadow(3px 3px 2px black);
+  filter: drop-shadow(1px 1px 1px black);
 }
 
 .skillText {
